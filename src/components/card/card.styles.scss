@@ -1,0 +1,101 @@
+.card {
+    position: relative;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    border: 3px solid #f2f2f2;
+    padding: 5px 15px 30px 15px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 15px -5px rgba(0,0,0,.15);
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    transition: transform all 1.25s ease-in-out;
+    border: 3px solid #fff;
+    img {
+        width: 120px;
+        height: auto;
+        filter: grayscale(1);
+    }
+    h1 {
+        color: #fff;
+        font-size: 18px;
+        border-bottom: 3px solid #000;
+        height: 40px;
+        line-height: 43px;
+        background-color: #FF9A8B;
+        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        border-radius: 5px 5px 0 0;
+        font-weight: 300;
+    }
+    .cardBtn {
+        display: block;
+        background: #9bd441;
+        margin: 0 auto;
+        border: 1px solid #FF6A88;
+        padding: 10px 25px;
+        margin-top: 10px;
+        border-radius: 3px;
+        opacity: 1 !important;
+    }
+}
+.card:hover {
+    transform: scale(1.05);
+    // border: 3px solid #FF9A8B;
+    border: 3px solid  #9bd441;
+    padding: 5px 15px 30px 15px;
+    background: linear-gradient(45deg, #f2ffde 0%, #ffffff 100%);
+    
+}
+ 
+.card p {
+    opacity: .5;
+}
+.card:hover p{
+    opacity: 1;
+}
+.card:hover img{
+    filter: grayscale(0)
+}
+
+.card span:not(.notRated) {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background:#000;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 3;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.5);
+}
+.card span.notRated {
+    background: #FF6A88;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    z-index: 3;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-shadow: 1px 1px 3px #000;
+    transform: translateX(-50%);
+    
+}
+
+.imgHolder {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border: 2px solid #c3cfe2;
+    border-radius: 50%;
+    overflow: hidden;
+}
