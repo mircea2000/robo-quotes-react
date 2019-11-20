@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {CardList} from './components/card-list/card-list.component';
 import {Footer} from './components/footer/footer.component';
 import {GoToTop} from './components/go-to-top/go-to-top.component';

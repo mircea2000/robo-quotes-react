@@ -7,7 +7,7 @@ export class Footer extends React.Component {
     render(){
         return (
             <div className="footer">
-                Made with <span ><FontAwesomeIcon icon={faHeart} /></span> by Mirch~Pirch in Phoenix, AZ using React.Js
+                Made with <span ><FontAwesomeIcon icon={faHeart} /></span> by <em>Mirch~Pirch</em> in Phoenix, AZ using <em>React.Js</em>
             </div>
         );
     }

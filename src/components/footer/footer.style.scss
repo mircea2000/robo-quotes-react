@@ -16,6 +16,11 @@
         color: #ff4267;
         display: inline-block;
         margin: 0 5px;
+      }
+    em {
+      font-style: normal;
+      color: #fff;
+      opacity: 1;
     }
     @media (max-width: 768px) {
         font-size: 13px;
@@ -29,13 +34,13 @@
       transform: scale(1);
     }
     25% {
-      transform: scale(1.1);
+      transform: scale(1.15);
     }
     40% {
       transform: scale(1);
     }
     60% {
-      transform: scale(1.1);
+      transform: scale(1.15);
     }
     100% {
       transform: scale(1);
