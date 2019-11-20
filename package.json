@@ -1,7 +1,7 @@
 {
   "name": "roboQuotes",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://mircea2000.github.io/robo-quotes-react",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
