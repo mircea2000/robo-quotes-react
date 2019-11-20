@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/robo-quotes-react/static/css/main.211ad7d2.chunk.css",
+    "main.js": "/robo-quotes-react/static/js/main.37f7b09f.chunk.js",
+    "main.js.map": "/robo-quotes-react/static/js/main.37f7b09f.chunk.js.map",
+    "runtime-main.js": "/robo-quotes-react/static/js/runtime-main.1fd04303.js",
+    "runtime-main.js.map": "/robo-quotes-react/static/js/runtime-main.1fd04303.js.map",
+    "static/js/2.35056b34.chunk.js": "/robo-quotes-react/static/js/2.35056b34.chunk.js",
+    "static/js/2.35056b34.chunk.js.map": "/robo-quotes-react/static/js/2.35056b34.chunk.js.map",
+    "index.html": "/robo-quotes-react/index.html",
+    "precache-manifest.45f562088eb52a9de8320cb5f486985a.js": "/robo-quotes-react/precache-manifest.45f562088eb52a9de8320cb5f486985a.js",
+    "service-worker.js": "/robo-quotes-react/service-worker.js",
+    "static/css/main.211ad7d2.chunk.css.map": "/robo-quotes-react/static/css/main.211ad7d2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fd04303.js",
+    "static/js/2.35056b34.chunk.js",
+    "static/css/main.211ad7d2.chunk.css",
+    "static/js/main.37f7b09f.chunk.js"
+  ]
+}
