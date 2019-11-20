@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/robo-quotes-react/precache-manifest.45f562088eb52a9de8320cb5f486985a.js"
+  "/robo-quotes-react/precache-manifest.1df6de370fefd7dfab50d7b2ff71ba98.js"
 );
 
 self.addEventListener('message', (event) => {
