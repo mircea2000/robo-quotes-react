@@ -32,6 +32,7 @@ export class Card extends React.Component {
 }
 
 const Modal = ({ handleClose, show, children }) => {
+  // Test
     const showHideClassName = show ? 'modal display-block' : 'modal display-none';
   
     return (
